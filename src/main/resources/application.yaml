@@ -7,7 +7,7 @@ logging:
         type:
           descriptor:
             sql: trace
-      springframework: debug
+#      springframework: debug
 security:
   basic:
     enabled: false
@@ -15,3 +15,5 @@ spring:
   data:
     rest:
       return-body-on-update: true
+  jackson:
+    default-property-inclusion: non_null
