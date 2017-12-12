@@ -1,0 +1,17 @@
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: trace
+        type:
+          descriptor:
+            sql: trace
+      springframework: debug
+security:
+  basic:
+    enabled: false
+spring:
+  data:
+    rest:
+      return-body-on-update: true
